@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de dano</title>
+        <link rel="stylesheet" type="text/css" href="style_calculadora.css">
+
+        <script src="calculardano.js" type="text/javascript"></script>
+    </head>
+
+    <body onload="iniciar()">
+        <div id="fundao">
+            <div class="calc_negrito" id="calc"><h1>Calculadora de Dano</h1></div>
+            <div class="calc_negrito"><h3>Selecione um personagem</h3></div>
+            <div id="monstros">
+                <div class="nome_objetos clicavel monstros" id="orc">
+                    <img src="imagens/orc.png" alt="" width="150px">
+                    <p>orc</p>
+                </div>
+                <div class="nome_objetos clicavel monstros" id="goblin">
+                    <img src="imagens/globin.png" alt="" width="150px">
+                    <p>goblin</p>
+                </div>
+                <div class="nome_objetos clicavel monstros" id="feiticeira">
+                    <img src="imagens/feiticeira.png" alt="" width="150px">
+                    <p>feiticeira</p>
+                </div>
+            </div>
+            <div class="calc_negrito"><h3>Selecione uma arma</h3></div>
+            <div id="armas">
+                <div class="nome_objetos clicavel armas" id="soco">
+                    <img src="imagens/soco.png" alt="" width="150px">
+                    <p>soco</p>
+                </div>
+                <div class="nome_objetos clicavel armas" id="arco">
+                    <img src="imagens/arco.png" alt="" width="150px">
+                    <p>arco</p>
+                </div>
+                <div class="nome_objetos clicavel armas" id="espada">
+                    <img src="imagens/espada.png" alt="" width="150px">
+                    <p>espada</p>
+                </div>
+            </div>
+            <div id="botao"><button id=botao_clicavel name="Calcular Dano">Calcular Dano</button></div>
+        </div>
+    </body>
+</html>
